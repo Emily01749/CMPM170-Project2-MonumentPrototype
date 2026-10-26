@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cukm32fq8btq2"]
+
+[ext_resource type="PackedScene" uid="uid://cv4dj74j1ompi" path="res://Scenes/grid.tscn" id="1_jjgbg"]
+[ext_resource type="Script" uid="uid://bcp8dphakfk0x" path="res://sprite_2d.gd" id="2_bo1nx"]
+
+[node name="Main" type="Node2D" unique_id=842719290]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=857558488]
+position = Vector2(95, -81)
+zoom = Vector2(4, 4)
+
+[node name="Grid" parent="." unique_id=722084773 instance=ExtResource("1_jjgbg")]
+offset_left = 1.0
+offset_right = 161.0
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=765022416]
+script = ExtResource("2_bo1nx")

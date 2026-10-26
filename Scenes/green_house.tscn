@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dnke3w1m3jcx2"]
+
+[ext_resource type="Texture2D" uid="uid://cfppwsa4nuxx3" path="res://Sprites/monopolygreenhouse.png" id="1_s6rnt"]
+
+[node name="Node2D" type="Node2D" unique_id=2095752090]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2033683222]
+position = Vector2(1.7881393e-07, -1.0000014)
+scale = Vector2(0.084486604, 0.100759335)
+texture = ExtResource("1_s6rnt")
