@@ -2,132 +2,223 @@
 
 [ext_resource type="Texture2D" uid="uid://d3kgp3ww1ie0q" path="res://Assets/gridCell.png" id="2_8gbba"]
 [ext_resource type="Script" uid="uid://bcp8dphakfk0x" path="res://sprite_2d.gd" id="2_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://elgwfwrn5e7c" path="res://Scenes/buttonControl.tscn" id="3_8gbba"]
+
+[sub_resource type="FontFile" id="FontFile_bo1nx"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/12/0/ascent = 0.0
+cache/0/12/0/descent = 0.0
+cache/0/12/0/underline_position = 0.0
+cache/0/12/0/underline_thickness = 0.0
+cache/0/12/0/scale = 1.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_dmtmc"]
+font = SubResource("FontFile_bo1nx")
+font_size = 12
+
+[sub_resource type="FontFile" id="FontFile_8gbba"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/12/0/ascent = 0.0
+cache/0/12/0/descent = 0.0
+cache/0/12/0/underline_position = 0.0
+cache/0/12/0/underline_thickness = 0.0
+cache/0/12/0/scale = 1.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_ocsp6"]
+font = SubResource("FontFile_8gbba")
+font_size = 12
 
 [node name="Main" type="Node2D" unique_id=842719290]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=857558488]
-position = Vector2(95, -81)
-zoom = Vector2(4, 4)
+position = Vector2(98, -82)
+zoom = Vector2(3, 3)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=765022416]
 script = ExtResource("2_bo1nx")
 
 [node name="GridCell01" type="Sprite2D" parent="." unique_id=243704806]
-position = Vector2(0, -137.5)
+position = Vector2(-6, -138.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell02" type="Sprite2D" parent="." unique_id=102640788]
-position = Vector2(38, -137.5)
+position = Vector2(32, -138.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell03" type="Sprite2D" parent="." unique_id=1380392158]
-position = Vector2(76, -137.5)
+position = Vector2(70, -138.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell04" type="Sprite2D" parent="." unique_id=1048918746]
-position = Vector2(113, -137.5)
+position = Vector2(107, -138.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell05" type="Sprite2D" parent="." unique_id=1351297585]
-position = Vector2(151, -137.5)
+position = Vector2(145, -138.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell06" type="Sprite2D" parent="." unique_id=1648722684]
-position = Vector2(189, -137.5)
+position = Vector2(183, -138.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell07" type="Sprite2D" parent="." unique_id=797296700]
-position = Vector2(0, -100.5)
+position = Vector2(-6, -101.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell08" type="Sprite2D" parent="." unique_id=23126780]
-position = Vector2(38, -100.5)
+position = Vector2(32, -101.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell09" type="Sprite2D" parent="." unique_id=1199913672]
-position = Vector2(76, -100.5)
+position = Vector2(70, -101.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell10" type="Sprite2D" parent="." unique_id=637755605]
-position = Vector2(113, -100.5)
+position = Vector2(107, -101.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell11" type="Sprite2D" parent="." unique_id=586273610]
-position = Vector2(151, -100.5)
+position = Vector2(145, -101.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell12" type="Sprite2D" parent="." unique_id=1776611973]
-position = Vector2(189, -100.5)
+position = Vector2(183, -101.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell13" type="Sprite2D" parent="." unique_id=370434231]
-position = Vector2(0, -63.5)
+position = Vector2(-6, -64.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell14" type="Sprite2D" parent="." unique_id=1045166445]
-position = Vector2(38, -63.5)
+position = Vector2(32, -64.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell15" type="Sprite2D" parent="." unique_id=82452814]
-position = Vector2(76, -63.5)
+position = Vector2(70, -64.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell16" type="Sprite2D" parent="." unique_id=929151040]
-position = Vector2(113, -63.5)
+position = Vector2(107, -64.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell17" type="Sprite2D" parent="." unique_id=2068927040]
-position = Vector2(151, -63.5)
+position = Vector2(145, -64.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell18" type="Sprite2D" parent="." unique_id=1871951297]
-position = Vector2(189, -63.5)
+position = Vector2(183, -64.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell19" type="Sprite2D" parent="." unique_id=1148252706]
-position = Vector2(0, -26.5)
+position = Vector2(-6, -27.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell20" type="Sprite2D" parent="." unique_id=3578252]
-position = Vector2(38, -26.5)
+position = Vector2(32, -27.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell21" type="Sprite2D" parent="." unique_id=1585172195]
-position = Vector2(76, -26.5)
+position = Vector2(70, -27.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell22" type="Sprite2D" parent="." unique_id=775312533]
-position = Vector2(113, -26.5)
+position = Vector2(107, -27.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell23" type="Sprite2D" parent="." unique_id=792945829]
-position = Vector2(151, -26.5)
+position = Vector2(145, -27.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
 
 [node name="GridCell24" type="Sprite2D" parent="." unique_id=1347898980]
-position = Vector2(189, -26.5)
+position = Vector2(183, -27.5)
 scale = Vector2(0.037109375, 0.036132816)
 texture = ExtResource("2_8gbba")
+
+[node name="TurnLabel" type="Label" parent="." unique_id=980471430]
+offset_left = -88.0
+offset_top = -184.0
+offset_right = -52.0
+offset_bottom = -161.0
+scale = Vector2(0.9752269, 0.9742915)
+text = "Turn :"
+label_settings = SubResource("LabelSettings_dmtmc")
+
+[node name="TurnNumber" type="Label" parent="." unique_id=1718623883]
+offset_left = -53.0
+offset_top = -184.0
+offset_right = -45.0
+offset_bottom = -155.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ocsp6")
+
+[node name="WorshipLabel" type="Label" parent="." unique_id=1149125513]
+offset_left = -88.0
+offset_top = -168.0
+offset_right = -6.0
+offset_bottom = -145.0
+scale = Vector2(0.9752269, 0.9742915)
+text = "Worship:"
+label_settings = SubResource("LabelSettings_dmtmc")
+
+[node name="WorshipNumber" type="Label" parent="." unique_id=858547929]
+offset_left = -36.0
+offset_top = -168.0
+offset_right = -26.0
+offset_bottom = -139.0
+text = "1
+"
+label_settings = SubResource("LabelSettings_ocsp6")
+
+[node name="Control" parent="." unique_id=1772380203 node_paths=PackedStringArray("turn_number_label", "worship_number_label") instance=ExtResource("3_8gbba")]
+turn_number_label = NodePath("../TurnNumber")
+worship_number_label = NodePath("../WorshipNumber")
