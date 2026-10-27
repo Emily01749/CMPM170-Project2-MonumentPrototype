@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://elgwfwrn5e7c"]
+
+[ext_resource type="Script" uid="uid://cgwpbcdmxqe2w" path="res://Scripts/endTurnButton.gd" id="1_rf8bs"]
+
+[node name="Control" type="Control" unique_id=1772380203]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_rf8bs")
+
+[node name="EndTurnButton" type="Button" parent="." unique_id=200284898]
+layout_mode = 0
+offset_left = 205.0
+offset_top = -7.0
+offset_right = 283.0
+offset_bottom = 24.0
+text = "End Turn"
+
+[connection signal="pressed" from="EndTurnButton" to="." method="_on_button_pressed"]
