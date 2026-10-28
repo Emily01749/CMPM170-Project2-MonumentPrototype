@@ -1,5 +1,7 @@
 extends Sprite2D
 var object_to_place: PackedScene = preload("res://Scenes/green_house.tscn")
+var count_houses: int = 0
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
@@ -21,4 +23,6 @@ func place_object(_mouse_pos: Vector2) -> void:
 	var new_obj = object_to_place.instantiate()
 	get_tree().current_scene.add_child(new_obj)
 	new_obj.global_position = get_global_mouse_position()
+	count_houses += 1
+	print(count_houses)
 	
