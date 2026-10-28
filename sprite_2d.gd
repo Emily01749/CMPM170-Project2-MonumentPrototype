@@ -24,5 +24,5 @@ func place_object(_mouse_pos: Vector2) -> void:
 	get_tree().current_scene.add_child(new_obj)
 	new_obj.global_position = get_global_mouse_position()
 	count_houses += 1
-	print(count_houses)
+	#print(count_houses)
 	
