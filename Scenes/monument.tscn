@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cgg4t5pkov6o8"]
+
+[ext_resource type="Texture2D" uid="uid://bex42qwk756he" path="res://Scenes/Monumento_ao_Cristo_Redentor.jpg" id="1_640ke"]
+
+[node name="Node2D" type="Node2D" unique_id=875740836]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=652779444]
+position = Vector2(33.999966, -103.25001)
+scale = Vector2(0.0138889095, 0.012731483)
+texture = ExtResource("1_640ke")

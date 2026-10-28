@@ -1,10 +1,14 @@
 [gd_scene format=3 uid="uid://cukm32fq8btq2"]
 
 [ext_resource type="Texture2D" uid="uid://d3kgp3ww1ie0q" path="res://Assets/gridCell.png" id="2_8gbba"]
-[ext_resource type="Script" uid="uid://bcp8dphakfk0x" path="res://sprite_2d.gd" id="2_bo1nx"]
+[ext_resource type="Script" uid="uid://bcp8dphakfk0x" path="res://Scripts/PlaceHouse.gd" id="2_bo1nx"]
 [ext_resource type="PackedScene" uid="uid://elgwfwrn5e7c" path="res://Scenes/buttonControl.tscn" id="3_8gbba"]
+[ext_resource type="Texture2D" uid="uid://bex42qwk756he" path="res://Scenes/Monumento_ao_Cristo_Redentor.jpg" id="4_jjvhh"]
 
 [sub_resource type="FontFile" id="FontFile_bo1nx"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
 cache/0/variation_coordinates = {}
 cache/0/face_index = 0
 cache/0/embolden = 0.0
@@ -30,6 +34,9 @@ font = SubResource("FontFile_bo1nx")
 font_size = 12
 
 [sub_resource type="FontFile" id="FontFile_8gbba"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
 cache/0/variation_coordinates = {}
 cache/0/face_index = 0
 cache/0/embolden = 0.0
@@ -222,3 +229,8 @@ label_settings = SubResource("LabelSettings_ocsp6")
 [node name="Control" parent="." unique_id=1772380203 node_paths=PackedStringArray("turn_number_label", "worship_number_label") instance=ExtResource("3_8gbba")]
 turn_number_label = NodePath("../TurnNumber")
 worship_number_label = NodePath("../WorshipNumber")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1007885850]
+position = Vector2(93, -94)
+scale = Vector2(0.013257572, 0.013468012)
+texture = ExtResource("4_jjvhh")
