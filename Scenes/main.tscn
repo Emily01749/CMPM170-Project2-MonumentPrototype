@@ -1,10 +1,13 @@
 [gd_scene format=3 uid="uid://cukm32fq8btq2"]
 
 [ext_resource type="Texture2D" uid="uid://d3kgp3ww1ie0q" path="res://Assets/gridCell.png" id="2_8gbba"]
-[ext_resource type="Script" uid="uid://bcp8dphakfk0x" path="res://sprite_2d.gd" id="2_bo1nx"]
+[ext_resource type="Script" path="res://Scripts/PlaceHouse.gd" id="2_bo1nx"]
 [ext_resource type="PackedScene" uid="uid://elgwfwrn5e7c" path="res://Scenes/buttonControl.tscn" id="3_8gbba"]
 
 [sub_resource type="FontFile" id="FontFile_bo1nx"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
 cache/0/variation_coordinates = {}
 cache/0/face_index = 0
 cache/0/embolden = 0.0
@@ -30,6 +33,9 @@ font = SubResource("FontFile_bo1nx")
 font_size = 12
 
 [sub_resource type="FontFile" id="FontFile_8gbba"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
 cache/0/variation_coordinates = {}
 cache/0/face_index = 0
 cache/0/embolden = 0.0
