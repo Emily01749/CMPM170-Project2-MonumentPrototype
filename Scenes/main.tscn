@@ -69,6 +69,7 @@ position = Vector2(98, -82)
 zoom = Vector2(3, 3)
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=765022416]
+unique_name_in_owner = true
 script = ExtResource("1_8gbba")
 
 [node name="GridCell01" type="Sprite2D" parent="." unique_id=243704806]

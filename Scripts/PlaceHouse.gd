@@ -4,8 +4,9 @@ var count_houses: int = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
-
+	#label.visible = false
+	#line_edit.visible = false
+	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
@@ -26,3 +27,6 @@ func place_object(_mouse_pos: Vector2) -> void:
 	count_houses += 1
 	print(count_houses)
 	
+
+
+		
