@@ -68,9 +68,10 @@ font_size = 12
 position = Vector2(98, -82)
 zoom = Vector2(3, 3)
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=765022416]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=765022416 node_paths=PackedStringArray("worship_number_label")]
 unique_name_in_owner = true
 script = ExtResource("1_8gbba")
+worship_number_label = NodePath("../WorshipNumber")
 
 [node name="GridCell01" type="Sprite2D" parent="." unique_id=243704806]
 position = Vector2(-6, -138.5)
