@@ -3,7 +3,8 @@
 [ext_resource type="Script" uid="uid://bcp8dphakfk0x" path="res://Scripts/PlaceHouse.gd" id="1_8gbba"]
 [ext_resource type="Texture2D" uid="uid://d3kgp3ww1ie0q" path="res://Assets/gridCell.png" id="2_8gbba"]
 [ext_resource type="PackedScene" uid="uid://elgwfwrn5e7c" path="res://Scenes/buttonControl.tscn" id="3_8gbba"]
-[ext_resource type="Texture2D" uid="uid://vhmtuig3xin1" path="res://Sprites/Monumento_ao_Cristo_Redentor.jpg" id="4_jjvhh"]
+[ext_resource type="Texture2D" uid="uid://vyr0dnv5gywl" path="res://Sprites/background.png" id="3_21xkr"]
+[ext_resource type="Texture2D" uid="uid://b7s2opsilssea" path="res://Sprites/Monumento_ao_Cristo_Redentor.png" id="5_21xkr"]
 [ext_resource type="PackedScene" uid="uid://cshveojvdt3ec" path="res://Scenes/text_input.tscn" id="5_kry3j"]
 
 [sub_resource type="FontFile" id="FontFile_bo1nx"]
@@ -72,6 +73,11 @@ zoom = Vector2(3, 3)
 unique_name_in_owner = true
 script = ExtResource("1_8gbba")
 worship_number_label = NodePath("../WorshipNumber")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=531259470]
+position = Vector2(88.19445, -106.25001)
+scale = Vector2(0.11750579, 0.18101852)
+texture = ExtResource("3_21xkr")
 
 [node name="GridCell01" type="Sprite2D" parent="." unique_id=243704806]
 position = Vector2(-6, -138.5)
@@ -234,8 +240,8 @@ turn_number_label = NodePath("../TurnNumber")
 worship_number_label = NodePath("../WorshipNumber")
 
 [node name="Sprite2D2" type="Sprite2D" parent="." unique_id=636929804]
-position = Vector2(89, -86)
-scale = Vector2(0.015625002, 0.015361936)
-texture = ExtResource("4_jjvhh")
+position = Vector2(92.00001, -119.00001)
+scale = Vector2(0.029671717, 0.029172154)
+texture = ExtResource("5_21xkr")
 
 [node name="Node2D" parent="." unique_id=332819310 instance=ExtResource("5_kry3j")]
