@@ -1,9 +1,10 @@
 [gd_scene format=3 uid="uid://cukm32fq8btq2"]
 
-[ext_resource type="Script" uid="uid://bcp8dphakfk0x" path="res://PlaceHouse.gd" id="1_8gbba"]
+[ext_resource type="Script" uid="uid://bcp8dphakfk0x" path="res://Scripts/PlaceHouse.gd" id="1_8gbba"]
 [ext_resource type="Texture2D" uid="uid://d3kgp3ww1ie0q" path="res://Assets/gridCell.png" id="2_8gbba"]
 [ext_resource type="PackedScene" uid="uid://elgwfwrn5e7c" path="res://Scenes/buttonControl.tscn" id="3_8gbba"]
 [ext_resource type="Texture2D" uid="uid://vhmtuig3xin1" path="res://Sprites/Monumento_ao_Cristo_Redentor.jpg" id="4_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://cshveojvdt3ec" path="res://Scenes/text_input.tscn" id="5_kry3j"]
 
 [sub_resource type="FontFile" id="FontFile_bo1nx"]
 subpixel_positioning = 0
@@ -231,6 +232,8 @@ turn_number_label = NodePath("../TurnNumber")
 worship_number_label = NodePath("../WorshipNumber")
 
 [node name="Sprite2D2" type="Sprite2D" parent="." unique_id=636929804]
-position = Vector2(84, -90)
+position = Vector2(89, -86)
 scale = Vector2(0.015625002, 0.015361936)
 texture = ExtResource("4_jjvhh")
+
+[node name="Node2D" parent="." unique_id=332819310 instance=ExtResource("5_kry3j")]
