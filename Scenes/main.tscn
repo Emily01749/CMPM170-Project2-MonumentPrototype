@@ -7,60 +7,10 @@
 [ext_resource type="Texture2D" uid="uid://b7s2opsilssea" path="res://Sprites/Monumento_ao_Cristo_Redentor.png" id="5_21xkr"]
 [ext_resource type="PackedScene" uid="uid://cshveojvdt3ec" path="res://Scenes/text_input.tscn" id="5_kry3j"]
 
-[sub_resource type="FontFile" id="FontFile_bo1nx"]
-subpixel_positioning = 0
-msdf_pixel_range = 14
-msdf_size = 128
-cache/0/variation_coordinates = {}
-cache/0/face_index = 0
-cache/0/embolden = 0.0
-cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
-cache/0/spacing_top = 0
-cache/0/spacing_bottom = 0
-cache/0/spacing_space = 0
-cache/0/spacing_glyph = 0
-cache/0/baseline_offset = 0.0
-cache/0/16/0/ascent = 0.0
-cache/0/16/0/descent = 0.0
-cache/0/16/0/underline_position = 0.0
-cache/0/16/0/underline_thickness = 0.0
-cache/0/16/0/scale = 1.0
-cache/0/12/0/ascent = 0.0
-cache/0/12/0/descent = 0.0
-cache/0/12/0/underline_position = 0.0
-cache/0/12/0/underline_thickness = 0.0
-cache/0/12/0/scale = 1.0
-
 [sub_resource type="LabelSettings" id="LabelSettings_dmtmc"]
-font = SubResource("FontFile_bo1nx")
 font_size = 12
 
-[sub_resource type="FontFile" id="FontFile_8gbba"]
-subpixel_positioning = 0
-msdf_pixel_range = 14
-msdf_size = 128
-cache/0/variation_coordinates = {}
-cache/0/face_index = 0
-cache/0/embolden = 0.0
-cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
-cache/0/spacing_top = 0
-cache/0/spacing_bottom = 0
-cache/0/spacing_space = 0
-cache/0/spacing_glyph = 0
-cache/0/baseline_offset = 0.0
-cache/0/16/0/ascent = 0.0
-cache/0/16/0/descent = 0.0
-cache/0/16/0/underline_position = 0.0
-cache/0/16/0/underline_thickness = 0.0
-cache/0/16/0/scale = 1.0
-cache/0/12/0/ascent = 0.0
-cache/0/12/0/descent = 0.0
-cache/0/12/0/underline_position = 0.0
-cache/0/12/0/underline_thickness = 0.0
-cache/0/12/0/scale = 1.0
-
 [sub_resource type="LabelSettings" id="LabelSettings_ocsp6"]
-font = SubResource("FontFile_8gbba")
 font_size = 12
 
 [node name="Main" type="Node2D" unique_id=842719290]
